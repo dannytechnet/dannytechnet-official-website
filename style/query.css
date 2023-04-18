@@ -1,0 +1,1054 @@
+/*****************************/
+/* BELLOW 1088x (68em) --(Landscape Tablets) */
+/*****************************/
+@media (max-width: 68em) {
+  .hero {
+    padding: 2.4rem 12.4rem;
+  }
+  gap .Elivate-font {
+    font-size: 6rem;
+  }
+  .hero-image-section {
+    transform: translateY(1%);
+  }
+  .sub-header {
+    font-size: 1.6rem;
+  }
+  .hero-contednt-con {
+    padding: 9.6rem;
+    padding-top: 18rem;
+  }
+  .HERO-IMG {
+    width: 62%;
+    height: 88%;
+  }
+  .hero-img {
+    margin-top: 5rem;
+  }
+
+  .about {
+    font-size: 7.4rem;
+  }
+  .approach-grid-section {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .approach-grid-section {
+    padding-top: 9.8rem;
+  }
+  .Team {
+    width: 21rem;
+    height: 21rem;
+  }
+  .team-img-con {
+    gap: 6rem;
+  }
+  .abouts {
+    font-size: 1.6rem;
+    text-align: left;
+  }
+
+  .abouts {
+    padding: 4.4rem 6.4rem;
+  }
+  .what-we-do-features {
+    gap: 1rem;
+  }
+  .feature-header {
+    font-size: 1.6rem;
+    font-weight: 700;
+  }
+  .fa-light {
+    background-color: transparent;
+    font-size: 3rem;
+  }
+  .footer-section {
+    padding: 2.4rem 3.6rem;
+  }
+  .view-more-me {
+    transform: translate(117%, -80%);
+  }
+  .slider-hero-img {
+    width: 3700px;
+    height: 400px;
+  }
+  .HERO-IMG-mobile {
+    width: 100%;
+  }
+  .HERO-IMG-mobile-section {
+    padding: 3rem 2rem;
+  }
+  .hero-contednt-con {
+    padding-top: 29rem;
+  }
+  .hero-img {
+    margin-top: 12rem;
+  }
+  .CTA-header {
+    line-height: 1.2;
+  }
+  .CTA-header::before {
+    width: 18%;
+    bottom: -5%;
+    left: 41%;
+  }
+  .CTA-sub-header {
+    margin-top: 1.8rem;
+  }
+  .CTA-section {
+    padding: 9.6rem;
+  }
+  .CTA-formbtn {
+    font-size: 1.8rem;
+  }
+  .CTA-formbtn {
+    padding: 1.2rem 5.4rem;
+  }
+  .testimonia-section {
+    padding: 2.4rem;
+  }
+  .testimonial-main-con {
+    background-color: #d7e4fd;
+    display: grid;
+    gap: 1.6rem;
+    grid-template-columns: 50fr 45fr;
+    padding: 6.2rem;
+  }
+  /* 
+  .nexter2 {
+    width: 4.8rem;
+    height: 4.8rem;
+    background-color: #fff;
+    border-radius: 100px;
+    position: absolute;
+    top: 103%;
+    left: 141px;
+  }
+  .nexter1 {
+    width: 4.8rem;
+    height: 4.8rem;
+    background-color: #fff;
+    border-radius: 100px;
+    position: absolute;
+    top: 103%;
+    left: 274px;
+  } */
+  .previerBTNCon {
+    transform: translate(-9.5%, 59%);
+    bottom: -4%;
+    left: 44%;
+  }
+  .CTA-section {
+    margin-top: 6rem;
+  }
+  .reserve-policy {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    grid-column: span 3;
+    text-align: center;
+  }
+  .footer-contents {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+  }
+  .footer-section {
+    padding: 4.8rem 0.5rem;
+  }
+  .footerlink {
+    font-size: 1.6rem;
+    display: inline;
+  }
+  .footer-section1 {
+    font-size: 1.6rem;
+  }
+  .hero-header-N {
+    font-size: 7rem;
+  }
+  .pre-sub-header {
+    font-size: 3rem;
+    font-weight: 600;
+    color: #333;
+  }
+  .pre-sub-header {
+    font-size: 2.4rem;
+  }
+  /* .benefitThree {
+
+} */
+  /* .Hero-headline {
+    text-align: center;
+    padding: 0px 26rem;
+    text-align: left;
+  } */
+}
+@media (max-width: 58em) {
+  .company-we-work-for-section {
+    padding-left: 6.4rem;
+    padding-right: 6.4rem;
+  }
+  .contact-page-header {
+    font-size: 6.2rem;
+  }
+}
+@media (max-width: 48em) {
+  .Team {
+    width: 17rem;
+    height: 17rem;
+  }
+  .conatact-page-section {
+    padding: 3rem;
+  }
+  .company-we-work-for-header {
+    font-size: 4.2rem;
+  }
+  .company-log {
+    width: 90%;
+  }
+  .comampanies-logos {
+    gap: 5rem;
+  }
+  .company-we-work-for-sub-header {
+    font-size: 1.6rem;
+  }
+  .view-more-me {
+    transform: translate(76%, -28%);
+    font-size: 1rem;
+    padding: 0.6rem 2rem;
+  }
+  .comp-logo-con {
+    width: 16%;
+  }
+}
+@media (max-width: 43em) {
+  .CTA-section {
+    padding: 1.8rem;
+  }
+  .testimonial-section-header {
+    padding-top: 3rem;
+  }
+  .contact-page-header {
+    font-size: 5.2rem;
+  }
+  .CTA-ConContactpage {
+    justify-content: left !important;
+  }
+  .contact-page-header {
+    padding-top: 9.6rem;
+  }
+  .form-subTopic {
+    font-size: 2.4rem;
+    font-weight: 500;
+  }
+  .company-we-work-for-section {
+    padding: 5.8rem;
+    padding-left: 4.8rem;
+    padding-right: 4.8rem;
+  }
+  .comp-logo-con {
+    width: 16%;
+  }
+  .comampanies-logos {
+    margin-top: 4.8rem;
+  }
+  .testimonia-section {
+    margin-top: 0rem;
+  }
+  .company-we-work-for-sub-header {
+    font-size: 1.5rem;
+  }
+  .company-we-work-for-header {
+    font-size: 3.4rem;
+  }
+  .company-we-work-for-header::before {
+    transform: translate(158px, 5px);
+  }
+  .team-img-con {
+    gap: 2rem;
+  }
+  .HERO-IMG-mobile-section {
+    background-color: rgb(219, 253, 255);
+    padding: 2rem 1rem;
+  }
+  .feature3 {
+    grid-column: initial;
+    grid-row: initial;
+    grid-column: initial;
+    text-align: center;
+  }
+  .btnCenter {
+    grid-column: initial;
+    grid-row: initial;
+    grid-column: initial;
+    text-align: center;
+  }
+  .footerLogo {
+    filter: grayscale(100);
+    width: 14rem !important;
+  }
+  .hero {
+    background-image: url(hero2.png);
+  }
+  .testimonial-main-con {
+    position: relative;
+  }
+  .hero-img-ani {
+    display: none;
+  }
+  .hero {
+    text-align: center;
+  }
+  .hero-header-N {
+    font-size: 7.4rem;
+    font-weight: 800;
+    line-height: 0.4;
+    padding-top: 15rem;
+    padding-right: 2rem;
+  }
+  .brand-color {
+    line-height: 1.4;
+  }
+  .hero {
+    padding: 1rem 1.4rem;
+    background-color: rgb(219, 253, 255);
+  }
+
+  .HERO-IMG {
+    width: 85%;
+    height: 85%;
+  }
+  .image-container {
+    padding: 4rem;
+    padding-bottom: 0;
+    padding-top: 0;
+    height: 270px;
+    width: 600px;
+  }
+  .menu-modal-visibility {
+    transform: translateY(-150%);
+
+    pointer-events: all;
+    transition: all 0.3s ease-out;
+  }
+
+  .hero-img-ani {
+    background-color: rgb(219, 253, 255);
+  }
+  .CTA:link,
+  .CTA:visited {
+    border-radius: 9px;
+    font-size: 1.4rem;
+  }
+  .slider-hero-img {
+    width: 3000px;
+    height: 250px;
+  }
+
+  /* .menu-bar2 {
+    display: block;
+  } */
+  .pre-sub-header {
+    line-height: 1.1;
+    font-size: 2.4rem;
+    /* margin-top: -2rem; */
+    padding-right: 1.8rem;
+  }
+
+  .hero-sub-title {
+    font-size: 1.4rem;
+    margin-top: 2rem;
+    padding-right: 0;
+    padding-top: 2rem;
+  }
+  .hero-sub-title {
+    margin-top: 1rem;
+    color: #555555e1;
+    font-weight: 500;
+  }
+
+  .logo {
+    width: 7.8rem;
+    border-radius: 9px;
+  }
+  .CTA-Con {
+    justify-content: left;
+  }
+  .our-team-header::before {
+    transform: translateX(127%);
+  }
+  .testimonial-pix1,
+  .testimonial-pix2,
+  .testimonial-pix3 {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50px;
+    background-color: #fff;
+    border: solid 2px #6aa9f7;
+    width: 9rem;
+    height: 9rem;
+  }
+  .our-team-section {
+    padding: 9.6rem 2.4rem;
+  }
+  .can-do-header {
+    font-size: 3.2rem;
+  }
+  .whtat-we-can-do-for-you-section {
+    padding: 6.8rem 2.4rem;
+  }
+  .testimonial-container {
+    margin-top: 5rem;
+  }
+  .can-do-header-sub-header {
+    font-size: 1.4rem;
+    margin-top: 2.8rem;
+    font-weight: 500;
+  }
+  .benefitIcons {
+    font-size: 2.4rem;
+  }
+  .testimonial-text {
+    text-align: center;
+  }
+  .qoute {
+    text-align: center;
+    padding-top: 3rem;
+  }
+  .testifirstNameEl {
+    text-align: center;
+    margin-top: 1.2rem;
+  }
+  .testifierCompany {
+    text-align: center;
+  }
+  .testimonial-container {
+    padding: 2.4rem 2.8rem;
+  }
+  .testimonial-main-con {
+    grid-template-columns: 1fr;
+    padding: 6.2rem 2rem;
+    padding-bottom: 1.2rem;
+  }
+  .testimonial-text-con {
+    padding: 1rem;
+  }
+  .testimonial-section-sub-header {
+    font-size: 1.4rem;
+    padding: 0 1rem;
+  }
+  .testimonial-section-sub-header {
+    margin-top: 4rem;
+  }
+  .rating-con {
+    justify-content: center;
+  }
+  /* .testimonial-container {
+    height: 3rem;
+  } */
+
+  .footer-contents {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+  }
+  .reserve-policy {
+    grid-column: initial;
+    grid-row: inherit;
+    grid-column: initial;
+    text-align: left;
+  }
+  .footer-contents {
+    gap: 0;
+    column-gap: 4rem;
+    row-gap: 1.6rem;
+  }
+  .policy {
+    margin-top: 0.1rem;
+    color: #555;
+  }
+  .footerLogoCon {
+    text-align: left;
+    margin-bottom: 0;
+  }
+  .footerIcons {
+    justify-content: left;
+  }
+  .CTA-header {
+    font-size: 3.2rem;
+    line-height: 1.2;
+  }
+  .about-section {
+    border-radius: 60px;
+    margin-top: 6rem;
+  }
+  .abouts {
+    padding: 1rem;
+  }
+  .feature-header {
+    margin-bottom: 0.4rem;
+    color: #6aa9f7;
+  }
+  .CTA-Con {
+    justify-content: left;
+    margin-bottom: 2rem;
+  }
+  .tag::before {
+    transform: translate(4px, 4px);
+  }
+  .CTA-formbtn {
+    padding: 1.2rem 1.4rem;
+  }
+  .approac-sectiontitle {
+    font-size: 4.8rem;
+    margin-top: 3.2rem;
+  }
+  .approach {
+    padding: 1.2rem;
+  }
+  .section-approach {
+    margin-top: 6rem;
+  }
+  .approac-sectiontitle {
+    font-size: 4.8rem;
+    margin-top: 3.2rem;
+  }
+  .considered-content {
+    line-height: 1.6;
+    font-size: 1.4rem;
+    font-weight: 500;
+  }
+  .approach-grid-section {
+    grid-template-columns: 1fr;
+    padding-top: 2.8rem;
+  }
+  .considered-features {
+    text-align: center;
+  }
+  .approach-grid-section {
+    gap: 2rem;
+  }
+  .considered-feature-header {
+    margin-bottom: -1rem;
+  }
+  .HERO-IMG-mobile {
+    display: block;
+  }
+  .our-team-section {
+    background-color: #d7e4fd;
+    margin-top: 6rem;
+  }
+  .our-team-header {
+    font-size: 4.8rem;
+    font-weight: 700;
+  }
+  .our-team-section {
+    padding: 1.8rem 1rem;
+  }
+  .our-team-header::before {
+    transform: translateX(110%);
+  }
+  .our-team-sub-header {
+    font-size: 1.4rem;
+    font-weight: 500;
+  }
+  .team-img-con {
+    display: flex;
+    flex-direction: row;
+    margin-top: 9.6rem;
+  }
+  .CTA-Con {
+    margin: 4.8rem 0;
+  }
+  .Team {
+    width: 15rem;
+    height: 15rem;
+  }
+  .view-more-me {
+    padding: 0.2rem 0.8rem;
+    transform: translate(112%, -29%);
+  }
+  .modazl-window-container {
+    z-index: 999999;
+  }
+
+  .modal-widow-team {
+    grid-template-columns: 1fr;
+  }
+  .team-modal-con {
+    display: none;
+  }
+  .modal-team-con-header {
+    font-size: 4.8rem;
+    line-height: 0.5;
+    padding-top: 2.8rem;
+    text-align: center;
+  }
+  .modal-team-con-header2 {
+    text-align: center;
+  }
+  .team-modal-content {
+    line-height: 2;
+    font-size: 1.4rem;
+    text-align: center;
+  }
+  .cancelIcon {
+    font-size: 4.8rem;
+
+    right: 21px;
+  }
+  .ModalImg {
+    width: 50px;
+  }
+  .modal-team-con {
+    padding: 3rem 1rem;
+  }
+  @keyframes modalAnimations {
+    0% {
+      transform: translateX(0%);
+      transform: scale(0.5);
+    }
+
+    100% {
+      transform: translateX(0%);
+      filter: opacity(100%);
+      transform: scale(1);
+    }
+  }
+  .sociall-medias-hands-con {
+    display: none;
+  }
+  .about {
+    margin-bottom: 1.6rem;
+  }
+  .about {
+    font-size: 4rem;
+    font-weight: 900;
+    letter-spacing: -4.8px;
+    color: #eff6ff;
+    padding-top: 2.4rem;
+    padding-right: 0;
+    text-align: center;
+    letter-spacing: normal;
+  }
+  .abouts {
+    font-size: 1.4rem;
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+  .about-contents {
+    text-align: center;
+  }
+  .whtat-we-can-do-for-you-section {
+    margin-top: 8rem;
+    padding: 4.8rem 1rem;
+  }
+  .can-do-header::before {
+    transform: translate(118px, 5px);
+  }
+  .considered-features {
+    padding: 0;
+  }
+  .benefit-list-section-con {
+    grid-template-columns: 1fr;
+    columns: 1/2;
+  }
+  .benefitThree {
+    grid-column: 1;
+    grid-row: 0;
+    grid-column: span 0;
+    text-align: center;
+  }
+  .benefit-header {
+    margin-top: 1rem;
+    font-weight: 400;
+  }
+  .considred-feature-contents {
+    font-size: 1.4rem;
+  }
+  .benefit-list-section-con {
+    margin-top: 4.4rem;
+  }
+  .discoverCTA:link,
+  .discoverCTA:visited {
+    margin-top: 0;
+  }
+  .benefit-list-section-con {
+    gap: 2.6rem;
+  }
+  .can-do-header {
+    font-size: 3.2rem;
+  }
+  .what-we-do-features {
+    grid-template-columns: 1fr;
+    row-gap: 2rem;
+    text-align: center;
+  }
+  .testimonial-section-header {
+    text-align: center;
+    font-size: 3.2rem;
+  }
+  .CTA-Con {
+    justify-content: center;
+  }
+  .menu-link {
+    font-size: 1.2rem;
+    color: #fff;
+    text-decoration: none;
+  }
+  .menu-modal {
+    gap: 1.6rem;
+  }
+  .choice-section {
+    flex-direction: column !important;
+    gap: 2.4rem;
+  }
+}
+@media (max-width: 34em) {
+  .CTA-Con {
+    justify-content: center;
+  }
+  .menu-modal {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2.4rem;
+  }
+  .conatact-page-section {
+    padding: 2.4rem;
+  }
+  .form-contacts {
+    row-gap: 4.8rem !important;
+  }
+  .textAreacontent {
+    padding: 2.4rem !important;
+  }
+  .contact-page-header {
+    line-height: 1.1;
+    font-weight: 500;
+  }
+  .politeEmail {
+    margin-top: 2.4rem;
+    font-size: 1.6rem;
+  }
+  .testimonial-text {
+    font-size: 1.4rem;
+  }
+  .testimonia-section {
+    padding: 1.8rem;
+  }
+  .menu-link {
+    font-size: 2.4rem;
+  }
+  .conatact-page-section {
+    margin-bottom: 3.2rem;
+  }
+  .mailAddressContact {
+    font-size: 1.8rem;
+  }
+  .company-we-work-for-section {
+    padding: 5.8rem;
+    padding-left: 2.4rem;
+    padding-right: 2.4rem;
+  }
+  .company-we-work-for-sub-header {
+    font-size: 1.4rem;
+  }
+  .testimonial-section-header::before {
+    width: 22%;
+    transform: translate(62px, 5px);
+  }
+  .company-we-work-for-header::before {
+    transform: translate(140px, 5px);
+  }
+  .footer-header {
+    line-height: 1.1;
+    font-size: 4.4rem;
+  }
+  .topCTA {
+    display: flex;
+    justify-content: left;
+  }
+  .learnmore:link,
+  .learnmore:visited {
+    font-size: 1.2rem;
+    font-weight: 600;
+    display: inline-block;
+  }
+
+  .footer-subHeader {
+    margin-top: 1px;
+  }
+  .hero-header-N {
+    font-size: 6.2rem;
+    line-height: 0.8;
+  }
+  .hero-header-N {
+    padding-top: 12rem;
+  }
+  .hero {
+    text-align: left;
+  }
+  .CTA-section {
+    padding: 2.4rem 1rem;
+  }
+  .textArea {
+    padding-bottom: 0;
+  }
+  .CTA-form {
+    padding: 2rem 1.2rem;
+  }
+  .CTA-section {
+    border-top-left-radius: 22px;
+    border-top-right-radius: 22px;
+  }
+  .highlight {
+    display: none;
+  }
+  .Hero-headline {
+    padding: 4rem;
+  }
+  .CTA-header {
+    font-size: 3rem;
+    line-height: 1.2;
+  }
+  .CTA-header::before {
+    height: 2px;
+  }
+  .form-contacts {
+    grid-template-columns: 1fr;
+    column-gap: 3rem;
+    row-gap: 1.5rem;
+    margin-bottom: 3.2rem;
+  }
+  .form-labels {
+    font-weight: 600;
+    color: #555;
+    margin-bottom: 0.2rem;
+  }
+  .inpute-form {
+    font-size: 1.6rem;
+  }
+  .form-labels {
+    font-size: 1.4rem;
+    font-weight: 700;
+  }
+  .choice-label {
+    font-size: 1.4rem;
+  }
+  input[type="checkbox"] {
+    width: 2.4rem;
+    height: 2.4rem;
+    border-radius: 6px;
+  }
+  input[type="checkbox"]::after {
+    font-size: 1.8rem;
+  }
+  .CTA-pre-sub-header,
+  .CTA-sub-header {
+    font-size: 1.2rem;
+  }
+  .CTA-form {
+    margin-top: 3.2rem;
+  }
+
+  .CTA-pre-sub-header {
+    padding: 0 1.2rem;
+  }
+
+  .Team {
+    width: 12rem;
+    height: 12rem;
+  }
+  .view-more-me {
+    padding: 0.2rem 0.8rem;
+    transform: translate(90%, -29%);
+  }
+  .company-we-work-for-header {
+    font-size: 2.8rem;
+  }
+  .menu-modal {
+    height: 100vh;
+    padding: 2.4rem 0;
+  }
+  .testimonia-section {
+    background-color: #d7e4fd;
+  }
+}
+@media (max-width: 26em) {
+  .testimonial-section-header::before {
+    transform: translate(77px, 5px);
+  }
+  .footer-header {
+    font-size: 3.4rem;
+  }
+  .company-we-work-for-section {
+    padding-left: 1.2rem;
+    padding-right: 1.2rem;
+  }
+  .company-log {
+    width: 55%;
+  }
+  .comampanies-logos {
+    gap: 2.4rem;
+  }
+  .company-log {
+    width: 80%;
+  }
+  .comp-logo-con {
+    width: 20%;
+  }
+  .footer-subHeader {
+    font-size: 1.4rem;
+  }
+  .team-img-con {
+    margin-top: 7rem;
+  }
+
+  .mailAddress,
+  .footerlink,
+  .allRightReser,
+  .policy,
+  .phone-no {
+    font-size: 1.1rem;
+    font-weight: 600;
+  }
+  .footerIcons {
+    gap: 1rem;
+    margin-top: 6.5rem;
+  }
+  .footersocialMedia-icon {
+    color: #555;
+    font-size: 1.8rem;
+  }
+  .footer-contents {
+    column-gap: 2rem;
+    row-gap: 1.4rem;
+  }
+  .footer-section2 {
+    justify-content: left;
+  }
+  .fa-light {
+    margin-bottom: 0;
+    font-size: 2.4rem !important;
+  }
+  .mailIcon,
+  .callIcon {
+    margin-bottom: 0;
+    font-size: 1.8rem !important;
+  }
+  .footer-contents {
+    padding: 1.2rem 0.4rem;
+  }
+  .footerLogo {
+    width: 10rem !important;
+  }
+  .our-team-section {
+    border-radius: 60px;
+    padding: 6.4rem 2.4rem;
+    padding-bottom: 3rem;
+  }
+  .footer-section2 {
+    align-items: top !important;
+  }
+  .mailCon-callCon {
+    margin-bottom: 2.4rem;
+  }
+  .team-img-con {
+    gap: 2rem;
+  }
+  .Team {
+    width: 12rem;
+    height: 12rem;
+  }
+  .team-img-con {
+    flex-direction: column;
+  }
+  .view-more-me {
+    padding: 0.2rem 0.8rem;
+    transform: translate(87%, -29%);
+  }
+  .can-do-header {
+    font-size: 2.4rem;
+  }
+  .our-team-header::before {
+    transform: translateX(138%);
+  }
+}
+@media (max-width: 26em) {
+  .company-we-work-for-header::before {
+    background-color: transparent;
+  }
+}
+/**************************/
+/* Fixing Safari flexbox gap */
+/**************************/
+
+/* .no-flexbox-gap .footer-nav li:not(:last-child) {
+  margin-bottom: 2.4rem;
+} */
+/* NEW */
+.no-flexbox-gap .menu-moda:not(:last-child) {
+  margin-right: 3.2rem;
+}
+.no-flexbox-gap .team-img-con:not(:last-child) {
+  margin-right: 4rem;
+}
+.no-flexbox-gap .sociall-medias-hands-con:not(:last-child) {
+  margin-right: 1.8rem;
+}
+.no-flexbox-gap .previerBTNCon:not(:last-child) {
+  margin-right: 1rem;
+}
+.no-flexbox-gap .rating-con:not(:last-child) {
+  margin-right: 1.6rem;
+}
+.no-flexbox-gap .footerIcons:not(:last-child) {
+  margin-right: 3rem;
+}
+.no-flexbox-gap .footer-contents:not(:last-child) {
+  margin-right: 6.4rem;
+}
+
+@media (max-width: 68em) {
+  .no-flexbox-gap .team-img-con:not(:last-child) {
+    margin-right: 6rem;
+  }
+  .no-flexbox-gap .what-we-do-features:not(:last-child) {
+    margin-right: 1rem;
+  }
+}
+
+@media (max-width: 48em) {
+  .no-flexbox-gap .comampanies-logos:not(:last-child) {
+    margin-right: 5rem;
+  }
+}
+@media (max-width: 43em) {
+  .no-flexbox-gap .team-img-con:not(:last-child) {
+    margin-right: 2rem;
+  }
+  .no-flexbox-gap .menu-modal:not(:last-child) {
+    margin-right: 1.6rem;
+  }
+}
+@media (max-width: 26em) {
+  .no-flexbox-gap .comampanies-logos:not(:last-child) {
+    margin-right: 3.2rem;
+  }
+  .no-flexbox-gap .menu-modal:not(:last-child) {
+    margin-right: 1.6rem;
+  }
+  .no-flexbox-gap .footerIcons:not(:last-child) {
+    margin-right: 1rem;
+  }
+  .no-flexbox-gap .fteam-img-con:not(:last-child) {
+    margin-top: 2rem;
+  }
+}
+/* //////////////// */
+/* - Font sizes (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98 */
+/* - Spacing system (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+ */

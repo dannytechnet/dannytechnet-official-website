@@ -1,0 +1,215 @@
+/*****************************/
+/* BELLOW 1088x (68em) --(Landscape Tablets) */
+/*****************************/
+@media (max-width: 68em) {
+  .aboutHeroHeader {
+    font-size: 5rem;
+    color: #333;
+    font-weight: 800;
+    line-height: 1;
+  }
+
+  .aboutSectionHero {
+    grid-template-columns: 60fr 40fr;
+    gap: 2rem;
+  }
+  .WhoWeAre-SectionHedaer {
+    display: inline-block;
+    font-size: 6.2rem;
+  }
+  .WhoWeAre-SectionContent {
+    padding: 4.8rem 0;
+  }
+  .WhoWeAre {
+    padding: 4.8rem 5rem;
+  }
+  .WhoWeAre-SectionContent {
+    padding: 2.4rem 0;
+  }
+}
+@media (max-width: 61em) {
+  .aboutSectionHero {
+    padding: 0 2rem;
+  }
+  .menu-link {
+    font-size: 1.6rem;
+  }
+  .WhoWeAre-SectionContent {
+    padding: 4.8rem 0;
+  }
+}
+@media (max-width: 53em) {
+  .aboutHeroHeader {
+    font-size: 5.2rem;
+    line-height: 1.1;
+  }
+  .aboutSectionHero {
+    padding: 0 7.5rem;
+  }
+  .menu-link {
+    font-size: 1.4rem;
+  }
+
+  .aboutSectionHero {
+    grid-template-columns: 1fr;
+    text-align: center;
+    gap: 9rem;
+    align-items: center;
+  }
+
+  .segmentTwo-IMGCon {
+    padding: 0rem 10rem;
+  }
+  .segmentTwo-IMG {
+    width: 70%;
+  }
+  .WhoWeAre {
+    padding: 4.8rem 3rem;
+  }
+  .aboutSectionHero {
+    margin-bottom: 6rem;
+  }
+  .aboutSubHeader {
+    margin-top: 3.2rem;
+    text-align: center;
+    padding-right: 0;
+  }
+  .AboutCTAbtn {
+    display: inline-block;
+    margin-top: 4.8rem;
+  }
+  .segmentTwo-IMG {
+    display: none;
+  }
+  .segmentTwo-IMG2 {
+    display: block;
+    width: 100%;
+  }
+  .OurTeam {
+    grid-template-columns: 1fr;
+  }
+  .OurTeam-IMG {
+    display: none;
+  }
+  .OurTeam-Contents {
+    text-align: center;
+  }
+  .OurTeam {
+    padding: 4.8rem 3rem;
+  }
+  .OurTeam-IMG2 {
+    margin-top: 4.8rem;
+    display: block;
+    width: 100%;
+  }
+  .OurTeam-Img-con {
+    grid-row: 2;
+  }
+  .CTA-con2 {
+    display: block !important;
+  }
+  .CTA-con3 {
+    display: none !important;
+  }
+  .CTA-con2 {
+    display: flex !important;
+    justify-items: center;
+  }
+  .aboutHeroHeader {
+    font-size: 4.4rem;
+    line-height: 1.1;
+  }
+  .WhoWeAre-SectionContent {
+    font-size: 1.4rem;
+    font-weight: 400;
+  }
+
+  .OurTeam-SectionContent {
+    font-size: 1.4rem;
+    font-weight: 400;
+  }
+  .WhoWeAre {
+    padding-bottom: 2.4rem;
+  }
+}
+@media (max-width: 43em) {
+  .WhoWeAre-SectionHedaer {
+    font-size: 4.8rem;
+  }
+  .aboutHeroHeader {
+    font-size: 3.8rem;
+    line-height: 1.1;
+  }
+  .testimonia-section {
+    margin-top: 2rem;
+    position: relative;
+  }
+  .menu-link {
+    font-size: 1.2rem;
+  }
+  .menu-modal {
+    gap: 2rem;
+  }
+  .CTA-Con {
+    justify-content: left;
+  }
+  .testimonia-section::after {
+    content: "";
+    top: -6%;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    position: absolute;
+    border-top: solid 2px #b3c5e5;
+  }
+  .testimonial-text-con {
+    padding: 1rem;
+  }
+  .testimonial-section-sub-header {
+    font-size: 1.6rem;
+    padding: 0 1rem;
+  }
+  .rating-con {
+    justify-content: center;
+  }
+  .aboutSectionHero {
+    font-size: 1.4rem;
+    padding: 0 1rem;
+  }
+  .aboutSubHeader {
+    margin-top: 2.4rem;
+  }
+  .CTA-Con {
+    margin-top: 1.8rem;
+  }
+  .segmentTwo-IMGCon {
+    padding: 0rem 6rem;
+  }
+  .aboutSectionHero {
+    gap: 4.8rem;
+  }
+}
+@media (max-width: 26em) {
+  .aboutHeroHeader {
+    font-size: 3rem;
+  }
+  .aboutSubHeader {
+    margin-top: 1.8rem;
+  }
+  .segmentTwo-IMGCon {
+    padding: 0rem 3rem;
+  }
+  .WhoWeAre-SectionHedaer {
+    font-size: 3.2rem;
+  }
+  .WhoWeAre-SectionHedaer::after {
+    bottom: -21.2%;
+  }
+  .WhoWeAre {
+    padding: 4.8rem 1rem;
+    padding-bottom: 2rem;
+  }
+  .testimonial-section-header::before {
+    transform: translate(28px, 5px);
+  }
+}

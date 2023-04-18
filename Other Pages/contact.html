@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="favicon/favicon.png" />
+    <link rel="apple-touch-icon" href="favicon/apple-touch-icon.png" />
+    <link rel="manifest" href="manifest.webmanifest" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://site-assets.fontawesome.com/releases/v6.2.1/css/all.css"
+    />
+    <script
+      defer
+      src="https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://site-assets.fontawesome.com/releases/v6.2.1/css/all.css"
+    />
+    <link rel="stylesheet" href="/style/style2.css" />
+    <link rel="stylesheet" href="/style/aboutQuery.css" />
+    <link rel="stylesheet" href="/style/query.css" />
+    <title>Contact Us About Starting a Project &mdash; DannyTechnet</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <div class="menu-con">
+    <div class="menu">
+      <a href="/index.html" class="logo-con">
+        <img class="logo" src="/logo.svg" alt="" />
+      </a>
+      <div class="menu-modal menu-links-con" id="modalID">
+        <a href="/index.html" class="menu-link disabler">Home</a>
+        <a href="/Other Pages/About.html" class="menu-link disabler">About</a>
+      </div>
+      <div class="menu-bar-con">
+        <img class="menu-bar" src="/mennuBar.svg" alt="" />
+        <img class="menu-bar2" src="/mennuBar2.png" alt="" />
+        <i class="menuCancelIcon fa-light fa-xmark hidder"></i>
+      </div>
+    </div>
+  </div>
+  <body>
+    <section class="conatact-page-section">
+      <h1 class="contact-page-header">How can we help?</h1>
+      <p class="form-subTopic">Project Inquiries</p>
+      <form class="CTA-form-page CTA-form" action="">
+        <div class="form-contacts">
+          <div class="form-Name-con">
+            <label class="form-labels form-labelsContactPage" id="Name"
+              >Name</label
+            >
+            <input
+              class="inpute-form"
+              type="text"
+              id="name"
+              name="clientname"
+              placeholder="Danny Smith *"
+            />
+          </div>
+          <div class="form-company-con">
+            <label class="form-labels form-labelsContactPage" id="Company"
+              >Company Name</label
+            >
+            <input
+              class="inpute-form"
+              type="text"
+              id="Company"
+              name="Company"
+              placeholder="dannyTechnet"
+            />
+          </div>
+          <div class="form-mail-con">
+            <label class="form-labels form-labelsContactPage" id="e-mail"
+              >E-Mail</label
+            >
+            <input
+              class="Mailer inpute-form"
+              type="email"
+              id="Mail"
+              name="Mail"
+              placeholder="contact@dannytechnet.com "
+              required
+            />
+          </div>
+          <div class="form-tel-con">
+            <label class="form-labels form-labelsContactPage" id="tel"
+              >Phone Number</label
+            >
+            <input
+              class="inpute-form"
+              type="tel"
+              id="tel"
+              name="tel"
+              placeholder="+1(743)444-1871 (optional) *"
+            />
+          </div>
+        </div>
+        <div class="textArea-CTAbtn">
+          <div class="form-tel-con">
+            <label class="form-labels form-labelsContactPage" id="tel"
+              >How did you hear about us?</label
+            >
+
+            <select
+              class="textAreacontent textArea"
+              name="select-where"
+              required
+            >
+              <option value="">Please choose one option:</option>
+              <option value="friends">Friends and family</option>
+              <option value="youtube">YouTube video</option>
+              <option value="podcast">Podcast</option>
+              <option value="ad">Facebook ad</option>
+              <option value="others">Others</option>
+            </select>
+          </div>
+
+          <div class="form-section2">
+            <p class="form-sub-header">I'm primarily looking for…</p>
+          </div>
+          <div class="choice-section">
+            <div class="ckecker-inpute-con">
+              <input
+                class="gfield-choice-input"
+                name="checker"
+                type="checkbox"
+                value="Branding"
+                id="choice"
+               
+              />
+              <label for="choice" class="choice-label">Website</label>
+            </div>
+            <div class="ckecker-inpute-con">
+              <input
+                class="gfield-choice-input"
+                name="checker"
+                type="checkbox"
+              
+              />
+              <label for="choice" class="choice-label">Hosting</label>
+            </div>
+            <div class="ckecker-inpute-con">
+              <input
+                class="gfield-choice-input"
+                name="checker"
+                type="checkbox"
+                value="Branding"
+                id="choice"
+                
+              />
+              <label for="choice" class="choice-label">Digital Marketing</label>
+            </div>
+            <div class="ckecker-inpute-con">
+              <input
+                class="gfield-choice-input"
+                name="checker"
+                type="checkbox"
+                value="Branding"
+                id="choice"
+               
+              />
+              <label for="choice" class="choice-label">Other</label>
+            </div>
+          </div>
+          <div>
+            <textarea
+              class="textAreaContentPage textAreacontent textArea"
+              id="message"
+              name="message"
+              aria-label="Enter your message here"
+              placeholder="Please describe your potential project in detail:
+              "
+              rows="2"
+              
+            ></textarea>
+          </div>
+
+          <div class="CTA-Con CTA-ConContactpage">
+            <button class="CTA-formbtn">Send &rarr;</button>
+          </div>
+          <p class="form-subTopic">General Inquiries</p>
+          <p class="politeEmail">
+            For all other matters, please send a polite email to the address
+            below.
+          </p>
+
+          <a href="mailto:contact@dannytechnet.com" class="mailAddressContact"
+            >contact@dannytechnet.com</a
+          >
+        </div>
+      </form>
+    </section>
+    <footer class="footer-section">
+      <h2 class="footer-header">Let's get started!</h2>
+      <p class="footer-subHeader">
+        And <i class="fa-light fa-burst"></i> smash digital experience-across
+        channels
+      </p>
+      <div class="footer-contents">
+        <div class="footer-section1">
+          <div class="mailCon-callCon">
+            <i class="mailIcon fa-light fa-envelope"></i>
+            <a href="mailto:contact@dannytechnet.com" class="mailAddress"
+              >contact@dannytechnet.com</a
+            >
+          </div>
+          <div class="callCon mailCon-callCon">
+            <i class="callIcon fa-light fa-phone"></i>
+            <div class="PhoneNoCon">
+              <a href="tel:+1(743)-444-1871" class="phone-no"
+                >+1(743)-444-1871</a
+              >
+              
+            </div>
+          </div>
+        </div>
+        <div class="footer-section2">
+          <div>
+            <a href="/index.html" class="logo-con">
+              <img class="footerLogo" src="/logo.svg" alt="" />
+            </a>
+            <div class="footerIcons">
+              <a href="#" class="footersocialMedia-icon social_media-con">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+              <a href="#" class="footersocialMedia-icon social_media-con">
+                <ion-icon name="logo-linkedin"></ion-icon>
+              </a>
+              <a href="#" class="footersocialMedia-icon social_media-con">
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="footer-section3">
+          <div class="footerLinks">
+            <ul class="footerLinkCon">
+              <li><a class="footerlink" href="#WhoWeAre">About</a></li>
+              <li>
+                <a class="footerlink" href="http://academy.dannytechnet.com/ "
+                  >E-Learning</a
+                >
+              </li>
+              <li><a class="footerlink" href="#CTA-tracker">contact</a></li>
+              <li><a class="footerlink" href="#">Blog</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="reserve-policy">
+          <p class="allRightReser">
+            &copy;2023 Danny Technet. All Right Reserved.
+          </p>
+
+          <a href="#" class="policy">Privacy Policy</a>
+        </div>
+        <!------------------------Whatsapp Contact open-->
+        <div class="whatsapp">
+          <a href="https://api.whatsapp.com/send?phone=7434441871&text=Hey%20DannyTechnet%2C%20my%20name%20is%20" target="_blank">
+            <i class="fab fa-whatsapp fa-3x" aria-hidden="true"></i>
+          </a>
+        </div> 
+        <!------------------------Whatsapp Contact close-->
+      </div>
+    </footer>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <script src="/JavaScript/contactpage.js"></script>
+  </body>
+</html>

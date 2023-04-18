@@ -1,0 +1,219 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+body {
+  font-size: 1.6rem;
+  font-family: "Poppins", sans-serif;
+  line-height: 1.7;
+  overflow-x: hidden;
+  /* background-color: #f7f7f7; */
+
+  position: relative;
+  font-weight: 500;
+  scroll-behavior: smooth;
+}
+.logo {
+  border-radius: 9px;
+}
+
+.about-header {
+  background-color: #fff;
+}
+.menuIcon {
+  color: #fff;
+}
+.AboutCTAbtn {
+  display: inline-block;
+  margin-top: 6rem;
+}
+.menu-modalTwo {
+  position: absolute;
+  height: 90vh;
+  background-color: #0f2038;
+  z-index: 999;
+  top: 0;
+  right: 0;
+  width: 15%;
+  padding: 8rem 2.4rem;
+  transform: translateY(-90%);
+  visibility: hidden;
+  transition: all 0.3s ease-out;
+}
+
+.aboutSubHeader {
+  padding-right: 9rem;
+  color: #555555d7;
+  margin-top: 3.2rem;
+}
+.visible {
+  transform: translateY(0%);
+  visibility: visible;
+  pointer-events: all;
+}
+.aboutSectionHero {
+  background-color: #fff;
+  margin-top: 7rem;
+}
+.aboutSectionHero {
+  display: grid;
+  grid-template-columns: 55fr 45fr;
+  padding: 7rem 0;
+  font-size: 1.6rem;
+  padding: 0 5rem;
+  margin-bottom: 9rem;
+  margin-top: 16rem;
+  gap: 5rem;
+  align-items: center;
+  /* background-color: #f9f9f9dc; */
+  color: #555;
+  /* overflow: hidden; */
+}
+.segmentOne-IMG {
+  width: 100%;
+  /* border-radius: 11px; */
+  margin-top: 4rem;
+}
+.segmentTwo-IMGCon {
+  padding: 5rem;
+}
+.segmentTwo {
+  transform: scale(1.2);
+}
+.segmentTwo-IMG {
+  width: 100%;
+}
+
+.aboutHeaderText {
+  font-size: 1.8rem;
+  color: orange;
+  font-weight: 700;
+}
+.aboutHeaderTag {
+  margin: 1.8rem 0;
+
+  display: flex;
+  gap: 1.6rem;
+}
+.aboutHeroHeader {
+  font-size: 6.4rem;
+  color: #333;
+  line-height: 1;
+}
+
+/* WHO WE ARE SECTION */
+.who-we-areCon {
+  /* height: 100vh; */
+  background-color: #fff;
+  padding: 6rem;
+  display: grid;
+  grid-template-columns: 60fr 40fr;
+  align-items: center;
+  background-image: url(/images/footerbg.webp);
+  background-size: cover;
+  background-position: top;
+}
+.who-we-areConTeam {
+  /* height: 100vh; */
+  background-color: #fff;
+  padding: 6rem;
+  display: grid;
+  grid-template-columns: 40fr 60fr;
+  align-items: center;
+  background-image: url(/images/footerbg.webp);
+  background-size: cover;
+  background-position: top;
+}
+
+.aboutPix2 {
+  width: 100%;
+  transform: scale(1.5);
+}
+.who-we-are {
+  background-color: rgb(243, 193, 28);
+  height: 100%;
+  padding: 7rem;
+  padding-right: 15rem;
+  line-height: 2;
+}
+.who-we-areTeam {
+  background-color: rgb(243, 193, 28);
+  height: 100%;
+  padding: 7rem;
+  padding-left: 15rem;
+  line-height: 2;
+}
+
+.whoWEAreTeam-Header,
+.whoWEAre-Header {
+  font-size: 4rem;
+  font-weight: 600;
+}
+
+/* WHO WE ARE SECTION */
+.WhoWeAre {
+  padding: 9rem 5rem;
+  text-align: center;
+  background-image: linear-gradient(#0f2038, #0f2038),
+    url(/images/footerbg.webp);
+  background-size: cover;
+  background-position: top;
+}
+.WhoWeAre-SectionHedaer {
+  display: inline-block;
+  font-size: 6.2rem;
+  color: #fff;
+  letter-spacing: -2px;
+  position: relative;
+  line-height: 1;
+}
+.WhoWeAre-SectionHedaer::after {
+  content: "";
+  width: 50%;
+  height: 4px;
+  background-color: orange;
+  position: absolute;
+  bottom: -5%;
+  transform: translateX(50%);
+  left: 0;
+}
+.WhoWeAre-SectionContent {
+  line-height: 2;
+  padding: 9.6rem;
+  color: #fff;
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+.OurTeamHedaer {
+  color: #555;
+}
+.About-OurTeam-CTAbtn {
+  display: inline-block;
+}
+.OurTeam {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  /* gap: 2rem; */
+  padding: 9.6rem;
+}
+.OurTeam-IMG {
+  width: 80%;
+}
+.OurTeam-SectionContent {
+  margin-top: 3.2rem;
+  font-size: 1.6rem;
+  color: #555;
+  line-height: 2;
+}
+/* //////////////// */
+/* - Font sizes (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98 */
+/* - Spacing system (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+ */ ;
